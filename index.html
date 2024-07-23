@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlayStation</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="./images/logowhite.png" type="image/x-icon">
+</head>
+<body>
+
+
+
+    <!-- --------------------Sony----------------------------- -->
+    <div class="sony">
+        <h1>SONY</h1>
+    </div>
+
+
+     <!-- ------------------------Nav------------------------- -->
+    <div class="nav">
+        <div class="logo">
+            <a href=""><img src="./images/logo.png" alt=""></a>
+        </div>
+        <div class="links">
+            <a href="#">Games</a>
+            <a href="#">PS5</a>
+            <a href="#">PS4</a>
+            <a href="#">Services</a>
+            <a href="#">Accessories</a>
+            <a href="#">News</a>
+            <a href="#">Store</a>
+            <a href="#">Support</a>
+        </div>
+        <div class="btn">
+            <button>Sign In</button>
+        </div>
+        <div class="search">
+            <i class='bx bx-search-alt-2'></i>
+        </div>
+    </div>
+
+
+   <!-- ------------------------Main------------------------- -->
+    <div class="main">
+        <div class="slide-container" boxcontainigslides>
+            <div class="slides">
+                <img src="./images/s1.png" alt="" class="active" sliderimg>
+                <img src="./images/s2.png" alt="" sliderimg>
+                <img src="./images/s3.png" alt="" sliderimg>
+                <img src="./images/s4.png" alt="" sliderimg>
+                <img src="./images/s5.png" alt="" sliderimg>
+                <img src="./images/s6.png" alt="" sliderimg>
+                <img src="./images/s7.png" alt="" sliderimg>
+                <img src="./images/s8.png" alt="" sliderimg>
+            </div>
+
+            <div class="buttons">
+                <span class="next" slidenext>&#10095;</span>
+                <span class="prev" slideprev>&#10094;</span>
+            </div>
+        </div>
+
+        <div class="dot-container">
+            <div class="dot active" attr="0" slidedot onclick="switchImage(this)"></div>
+            <div class="dot" attr="1" slidedot onclick="switchImage(this)"></div>
+            <div class="dot" attr="2" slidedot onclick="switchImage(this)"></div>
+            <div class="dot" attr="3" slidedot onclick="switchImage(this)"></div>
+            <div class="dot" attr="4" slidedot onclick="switchImage(this)"></div>
+            <div class="dot" attr="5" slidedot onclick="switchImage(this)"></div>
+            <div class="dot" attr="6" slidedot onclick="switchImage(this)"></div>
+            <div class="dot" attr="7" slidedot onclick="switchImage(this)"></div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

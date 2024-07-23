@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* <!-- -------------------------Sony------------------------ --> */
+.sony{
+    background: black;
+    color: white;
+    padding: 5px 2%;
+}
+.sony h1{
+    text-align: end;
+}
+
+/* <!-- -------------------------Nav------------------------ --> */
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 2%;
+    align-items: center;
+}
+.nav .logo a img{
+    width: 50px;
+}
+.nav .links {
+    margin-left: 50px;
+}
+.nav .links a{
+    text-decoration: none;
+    color: black;
+    margin-left: 15px;
+    font-weight: bold;
+}
+.nav .btn{
+    margin-left: 650px;
+}
+.nav .btn button{
+    background: blue;
+    color: white;
+    border: 0;
+    outline: 0;
+    padding: 5px 20px;
+    border-radius: 30px;
+    font-size: 18px
+}
+.nav .search{
+    margin-left: 30px;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+/* <!-- ------------------------Main------------------------- --> */
+.main{
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+}
+.main .slide-container{
+    position: relative;
+    width: 100%;
+    height: 615px;
+}
+.main .slide-container .slides{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.main .slide-container .slides img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+}
+.main .slide-container .slides img:not(.active){
+    top: 0;
+    left: -100%;
+}
+.main .slide-container .buttons span{
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    color: blue;
+    font-size: 40px;
+    z-index: 1;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 3px;
+    user-select: none;
+    padding: 14px;
+}
+.next{
+    right: 5px;
+}
+.prev{
+    left: 5px;
+}
+.next:hover, .prev:hover{
+    background: #3399FF;
+    opacity: 0.8;
+}
+.dot-container{
+    position: absolute;
+    bottom: 20px;
+    z-index: 3;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.dot-container .dot{
+    width: 15px;
+    height: 15px;
+    margin: 0 2px;
+    border: 3px solid #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background 0.6s ease;
+}
+.dot-container .active{
+    background: blue;
+}
+
+@keyframes next1{
+    from{
+        left: 0%;
+    }
+    to{
+        left: -100%;
+    }
+}
+@keyframes next2{
+    from{
+        left: 100%;
+    }
+    to{
+        left: 0%;
+    }
+}
+@keyframes prev1{
+    from{
+        left: 0%;
+    }
+    to{
+        left: 100%;
+    }
+}
+@keyframes prev2{
+    from{
+        left: -100%;
+    }
+    to{
+        left: 0%;
+    }
+}
