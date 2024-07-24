@@ -36,7 +36,7 @@
     font-weight: bold;
 }
 .nav .btn{
-    margin-left: 650px;
+    margin-left: 500px;
 }
 .nav .btn button{
     background: blue;
@@ -62,7 +62,7 @@
 .main .slide-container{
     position: relative;
     width: 100%;
-    height: 615px;
+    height: 580px;
 }
 .main .slide-container .slides{
     width: 100%;
@@ -105,7 +105,7 @@
 }
 .dot-container{
     position: absolute;
-    bottom: 20px;
+    bottom: 5px;
     z-index: 3;
     left: 50%;
     transform: translateX(-50%);
@@ -155,3 +155,193 @@
         left: 0%;
     }
 }
+
+/* <!-- ------------------------indicator------------------------- --> */
+.indicators{
+    display: flex;
+    padding: 10px 5%;
+    width: 100%;
+}
+.indicators .one{
+    margin-left: 10px;
+}
+.indicators .one img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+/* <!-- ------------------------intro ps5------------------------- --> */
+.intro-ps5{
+    padding: 30px 5%;
+    display: flex;
+    align-items: center;
+}
+.intro-ps5 .righty img{
+    width: 100%;
+}
+.intro-ps5 .lefty h1{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.intro-ps5 .lefty h3{
+    font-size: 30px;
+    color: blue;
+    margin-bottom: 10px;
+}
+.intro-ps5 .lefty p{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.intro-ps5 .lefty  span button{
+    background: blue;
+    border: 0;
+    outline: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: white;
+    font-size: 18px;
+}
+.intro-ps5 .lefty  span .red{
+    background: red;
+}
+
+/* <!-- ------------------------cards------------------------- --> */
+.carousel-inner{
+    padding: 10px 5%;
+    width: 100%;
+}
+.carousel-inner .carousel-item .row img{
+    width: 100%;
+    border: 1px solid  rgba(211, 211, 211, 1);
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px 0px rgba(211, 211, 211, 1);
+}
+
+/* <!-- ------------------------great------------------------- --> */
+.great{
+    background: black;
+    padding: 20px 5%;
+    color: white;
+    text-align: center;
+}
+.great h1{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.great  span button{
+    border: 0;
+    outline: 0;
+    padding: 10px 20px;
+    background: white;
+    color: black;
+    border-radius: 20px;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.great .games{
+    display: flex;
+    margin-bottom: 20px;
+}
+.great .games .one{
+    margin-left: 10px;
+}
+.great .games .one img{
+    width: 100%;
+    border-radius: 20px;
+}
+.great .games .one h3{
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+
+/* <!-- ------------------------Discover------------------------- --> */
+.discover{
+    background-image: url(./images/discover\ bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    object-fit: cover;
+}
+.discover h3{
+    font-size: 35px;
+    padding-top: 20px;
+}
+.discover h2{
+    font-size: 40px;
+}
+
+/* <!-- ------------------------Feel------------------------- --> */
+.feel{
+    background-image: url(./images/f1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 0 5%;
+}
+.feel h1{
+    font-size: 40px;
+    padding-top: 40px;
+    margin-bottom: 20px;
+}
+.feel p{
+    width: 500px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.feel span button{
+    border: 0;
+    outline: 0;
+    background: white;
+    color: black;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+.feel span .red{
+    background: red;
+    color: white;
+}
+
+/* <!-- ------------------------july------------------------- --> */
+.july{
+    background-image: url(./images/j1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 0 5%;
+}
+.july h1{
+    font-size: 40px;
+    padding-top: 40px;
+    margin-bottom: 20px;
+}
+.july p{
+    width: 500px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.july span button{
+    border: 0;
+    outline: 0;
+    background: white;
+    color: black;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+.july .new{
+    display: flex;
+}
+/* .july .new .one{
+    margin-left: 10px;
+} */
+/* .july .new .one img{
+    width: 300px;
+} */
