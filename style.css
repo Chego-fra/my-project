@@ -10,35 +10,36 @@
 .sony{
     background: black;
     color: white;
-    padding: 5px 2%;
+    padding: 0 2%;
 }
 .sony h1{
     text-align: end;
+    font-size: 28px;
 }
 
 /* <!-- -------------------------Nav------------------------ --> */
-.nav{
+.navo{
     display: flex;
     flex-wrap: wrap;
-    padding: 10px 2%;
+    padding: 5px 5%;
     align-items: center;
 }
-.nav .logo a img{
+.navo .logo a img{
     width: 50px;
 }
-.nav .links {
+.navo .links {
     margin-left: 50px;
 }
-.nav .links a{
+.navo .links a{
     text-decoration: none;
     color: black;
     margin-left: 15px;
     font-weight: bold;
 }
-.nav .btn{
-    margin-left: 500px;
+.navo .btn{
+    margin-left: 300px;
 }
-.nav .btn button{
+.navo .btn button{
     background: blue;
     color: white;
     border: 0;
@@ -47,40 +48,39 @@
     border-radius: 30px;
     font-size: 18px
 }
-.nav .search{
+.navo .search{
     margin-left: 30px;
     font-size: 30px;
     margin-top: 10px;
 }
 
 /* <!-- ------------------------Main------------------------- --> */
-.main{
+.maino{
     width: 100%;
     min-height: 100%;
     display: flex;
 }
-.main .slide-container{
+.maino .slide-container{
     position: relative;
     width: 100%;
-    height: 580px;
+    height: 500px;
 }
-.main .slide-container .slides{
+.maino .slide-container .slides{
     width: 100%;
     height: 100%;
     position: relative;
     overflow: hidden;
 }
-.main .slide-container .slides img{
+.maino .slide-container .slides img{
     width: 100%;
     height: 100%;
     position: absolute;
-    object-fit: cover;
 }
-.main .slide-container .slides img:not(.active){
+.maino .slide-container .slides img:not(.active){
     top: 0;
     left: -100%;
 }
-.main .slide-container .buttons span{
+.maino .slide-container .buttons span{
     top: 50%;
     transform: translateY(-50%);
     position: absolute;
@@ -315,6 +315,7 @@
     background-repeat: no-repeat;
     color: white;
     padding: 0 5%;
+    width: 100%;
 }
 .july h1{
     font-size: 40px;
@@ -339,9 +340,151 @@
 .july .new{
     display: flex;
 }
-/* .july .new .one{
+.july .new .two{
     margin-left: 10px;
-} */
-/* .july .new .one img{
+} 
+.july .new .two img{
+    width: 100%;
+    border-radius: 20px;
+}
+.july .new .two h3{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.july .new .two p{
     width: 300px;
-} */
+    font-size: 14px;
+}
+
+
+/* <!-- ------------------------Summer------------------------- --> */
+.summer{
+    display: flex;
+    padding: 30px 5%;
+    align-items: center;
+}
+.summer .right{
+    margin-left: 20px;
+    flex-basis: 60%;
+}
+.summer .right img{
+    width: 100%;
+    border-radius: 20px;
+}
+.summer .left{
+    flex-basis: 40%;
+}
+.summer .left h2{
+    margin-bottom: 10px;
+}
+.summer .left h3{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.summer .left button{
+    outline: 0;
+    border: 0;
+    background: red;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+/* <!-- ------------------------FOllow------------------------- --> */
+.follow{
+    background: #f5f7fa;
+    text-align: center;
+    height: 300px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.follow h1{
+    padding-top: 50px;
+}
+.follow i{
+    font-size: 150px;
+    cursor: pointer;
+}
+
+/* <!-- ------------------------footer------------------------- --> */
+.footer{
+    background: #00439c;
+    padding: 20px 5%;
+    color: white;
+}
+.footer .start{
+    display: flex;
+    align-items: center;
+}
+.footer .start .left img{
+    width: 70px;
+}
+.footer .start  .right{
+    margin-left: 10px;
+}
+.footer .start  .right h1{
+    color: white;
+    font-size: 38px;
+}
+.footer hr{
+    border: 1px solid #ccc;
+}
+.footer .middle{
+    display: flex;
+}
+.footer .middle .mid{
+    margin-left: 80px;
+}
+.footer .middle .mid a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+.footer .middle .mid h3{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.footer .second-last{
+    display: flex;
+    align-items: center;
+}
+.footer .second-last .left img{
+    width: 100px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+.footer .second-last .btwn h3{
+    font-size: 22px;
+}
+.footer .second-last .right img{
+    width: 50px;
+    margin-left: 750px;
+}
+.footer .second-txt p{
+    font-size: 14px;
+}
+.footer .last{
+    display: flex;
+    align-items: center;
+}
+.footer .last .logo img{
+    width: 40px;
+    margin-right: 10px;
+}
+.footer .last .country h4{
+    font-size: 16px;
+}
+.footer .last  .links{
+    margin-left: 380px;
+}
+.footer .last  .links a{
+    text-decoration: none;
+    color: white;
+    border-right: 2px solid white;
+    margin-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+}
