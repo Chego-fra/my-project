@@ -21,8 +21,9 @@
 .navo{
     display: flex;
     flex-wrap: wrap;
-    padding: 5px 5%;
+    padding: 0px 5%;
     align-items: center;
+    z-index: 900;
 }
 .navo .logo a img{
     width: 50px;
@@ -37,19 +38,19 @@
     font-weight: bold;
 }
 .navo .btn{
-    margin-left: 300px;
+    margin-left: 550px;
 }
 .navo .btn button{
     background: blue;
     color: white;
     border: 0;
     outline: 0;
-    padding: 5px 20px;
+    padding: 2px 20px;
     border-radius: 30px;
     font-size: 18px
 }
 .navo .search{
-    margin-left: 30px;
+    margin-left: 10px;
     font-size: 30px;
     margin-top: 10px;
 }
@@ -63,7 +64,7 @@
 .maino .slide-container{
     position: relative;
     width: 100%;
-    height: 500px;
+    height: 600px;
 }
 .maino .slide-container .slides{
     width: 100%;
@@ -75,6 +76,7 @@
     width: 100%;
     height: 100%;
     position: absolute;
+
 }
 .maino .slide-container .slides img:not(.active){
     top: 0;
@@ -105,7 +107,7 @@
 }
 .dot-container{
     position: absolute;
-    bottom: 5px;
+    bottom: 40px;
     z-index: 3;
     left: 50%;
     transform: translateX(-50%);
@@ -212,7 +214,6 @@
 }
 .carousel-inner .carousel-item .row img{
     width: 100%;
-    border: 1px solid  rgba(211, 211, 211, 1);
     border-radius: 20px;
     box-shadow: 5px 5px 15px 0px rgba(211, 211, 211, 1);
 }
@@ -274,7 +275,7 @@
 }
 
 /* <!-- ------------------------Feel------------------------- --> */
-.feel{
+.feet{
     background-image: url(./images/f1.png);
     background-size: cover;
     background-position: center;
@@ -282,17 +283,17 @@
     color: white;
     padding: 0 5%;
 }
-.feel h1{
+.feet h1{
     font-size: 40px;
     padding-top: 40px;
     margin-bottom: 20px;
 }
-.feel p{
+.feet p{
     width: 500px;
     margin-bottom: 20px;
     font-size: 18px;
 }
-.feel span button{
+.feet span button{
     border: 0;
     outline: 0;
     background: white;
@@ -302,7 +303,7 @@
     border-radius: 20px;
     margin-bottom: 30px;
 }
-.feel span .red{
+.feet span .red{
     background: red;
     color: white;
 }
@@ -434,14 +435,14 @@
     display: flex;
 }
 .footer .middle .mid{
-    margin-left: 80px;
+    margin-left: 90px;
 }
 .footer .middle .mid a{
     display: block;
     text-decoration: none;
     color: white;
     margin-bottom: 10px;
-    font-size: 13px;
+    font-size: 16px;
 }
 .footer .middle .mid h3{
     font-size: 22px;
@@ -461,10 +462,10 @@
 }
 .footer .second-last .right img{
     width: 50px;
-    margin-left: 750px;
+    margin-left: 1000px;
 }
 .footer .second-txt p{
-    font-size: 14px;
+    font-size: 17px;
 }
 .footer .last{
     display: flex;
@@ -475,10 +476,10 @@
     margin-right: 10px;
 }
 .footer .last .country h4{
-    font-size: 16px;
+    font-size: 17px;
 }
 .footer .last  .links{
-    margin-left: 380px;
+    margin-left: 500px;
 }
 .footer .last  .links a{
     text-decoration: none;
@@ -486,5 +487,216 @@
     border-right: 2px solid white;
     margin-left: 10px;
     padding-right: 10px;
-    font-size: 14px;
+    font-size: 17px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* <!-- -------------------------------games--------------------------- --> */
+.vid{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.267);
+    /* filter: blur(8px); */
+}
+.vid video{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+/* <!-- -------------------------------stellar--------------------------- --> */
+.stellar{
+    width: 100%;
+    padding: 20px 5%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.stellar h1{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.stellar img{
+    width: 100%;
+    border-radius: 40px;
+}
+.stellar .stel{
+    display: flex;
+    margin-top: 50px;
+}
+.stellar .stel .right video{
+    width: 100%;
+    border-radius: 20px;
+}
+.stellar .stel .left h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.stellar .stel .left p{
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+.stellar .stel .left button{
+    background: blue;
+    color: white;
+    padding: 10px 30px;
+    outline: 0;
+    border: 0;
+    border-radius: 30px;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+/* <!-- -------------------------------heldiver--------------------------- --> */
+.boss{
+    background: #0035dd;
+    padding: 20px 5%;
+    color: white;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+.boss img{
+    width: 100%;
+    border-radius: 40px;
+}
+.boss .stel{
+    display: flex;
+    margin-top: 20px;
+}
+.boss .stel .left h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.boss .stel .left p{
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+.boss .stel .left button{
+    background: white;
+    color: black;
+    padding: 10px 30px;
+    outline: 0;
+    border: 0;
+    border-radius: 30px;
+    font-size: 18px;
+    margin-top: 30px;
+}
+.boss .stel .right video{
+    width: 100%;
+    border-radius: 20px;
+}
+
+/* <!-- -------------------------------feel--------------------------- -->   */
+
+.feel{
+    background: #010639;
+    padding: 20px 5%;
+    color: white;
+    display: flex;
+}
+.feel .left h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.feel .left p{
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+.feel .left button{
+    background: white;
+    color: black;
+    padding: 10px 30px;
+    outline: 0;
+    border: 0;
+    border-radius: 30px;
+    font-size: 18px;
+    margin-top: 30px;
+}
+.feel .right img{
+    width: 100%;
+}
+
+/* <!-- -------------------------------feel--------------------------- -->   */
+
+.fifa {
+    padding: 20px 5%;
+}
+.fifa img{
+    width: 100%;
+    border-radius: 40px;
+}
+.fifa .stel{
+    display: flex;
+    margin-top: 30px;
+}
+.fifa .stel h2{
+    font-size: 40px;
+}
+.fifa .stel .left p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    margin-top: 30px;
+}
+.fifa .stel .left button{
+    background: blue;
+    color: white;
+    padding: 10px 30px;
+    outline: 0;
+    border: 0;
+    border-radius: 30px;
+    font-size: 18px;
+    margin-top: 30px;
+}
+.fifa .right video{
+    width: 100%;
+    border-radius: 20px;
+}
+
+/* <!-- -------------------------------fifa--------------------------- -->  */
+.cloud{
+    background: url(images/g8.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    color: white;
+    padding: 30px 5%;
+}
+.cloud h2{
+    font-size: 40px;
+}
+.cloud p{
+    margin-top: 30px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    width: 700px;
+}
+.cloud button{
+    background: white;
+    color: black;
+    padding: 10px 30px;
+    outline: 0;
+    border: 0;
+    border-radius: 30px;
+    font-size: 18px;
+    margin-top: 30px;
 }
