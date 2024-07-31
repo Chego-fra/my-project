@@ -603,6 +603,67 @@
     border-radius: 20px;
 }
 
+/* ----------------------------explore-------------------------- */
+.explore{
+    position: relative;
+    width: 100%;
+    height: 430px;
+    margin-bottom: 40px;
+}
+.explore  .exploring{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.explore  .exploring .explore-content{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.explore  .exploring .explore-content:not(.chego){
+    top: 0;
+    left: -100%;
+}
+.explore  .exploring .explore-content .dove{
+    display: flex;
+}
+.explore  .exploring .explore-content .dove .dive{
+    margin: 10px;
+}
+.explore  .exploring .explore-content .dove .dive img{
+    width: 100%;
+    height: 100%;
+}
+.explore  .buttons span{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 14px;
+    font-size: 40px;
+    background: black;
+    opacity: 0.8;
+    border-radius: 50%;
+    user-select: none;
+    z-index: 1;
+    cursor: pointer;
+}
+@keyframes after1{
+    from{
+        left: 0%;
+    }
+    to{
+        left: -100%;
+    }
+}
+@keyframes after2{
+    from{
+        left: 100%;
+    }
+    to{
+        left: 0%;
+    }
+}
 /* <!-- -------------------------------feel--------------------------- -->   */
 
 .feel{

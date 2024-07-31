@@ -84,3 +84,30 @@ function switchImage(currentImage){
     }
     indicators();
 }
+
+
+
+
+
+// -----------------------------------games----------------
+// access slides
+let slidePic = document.querySelectorAll("[exploring]");
+
+// access buttons
+let after = document.querySelector("[nexting]");
+let before = document.querySelector("[preving]");
+
+var counting = 0;
+
+// code for after button
+after.addEventListener("click", slideNext);
+function slideNext() {
+    slidePic[counting].style.animation = "after1 0.5s ease-in forwards";
+    if (counting >= slidePic.length-1) {
+        counting=0;
+    }
+    else{
+        counting++;
+    }
+    slidePic[counting].style.animation = "after2 0.5s ease-in forwards";
+}
