@@ -91,23 +91,38 @@ function switchImage(currentImage){
 
 // -----------------------------------games----------------
 // access slides
-let slidePic = document.querySelectorAll("[exploring]");
+let slideContent = document.querySelectorAll("[explode]");
 
 // access buttons
-let after = document.querySelector("[nexting]");
-let before = document.querySelector("[preving]");
+let nex = document.querySelector("[nexting]");
+let pre = document.querySelector("[preving]");
 
-var counting = 0;
+
+
+
 
 // code for after button
-after.addEventListener("click", slideNext);
-function slideNext() {
-    slidePic[counting].style.animation = "after1 0.5s ease-in forwards";
-    if (counting >= slidePic.length-1) {
-        counting=0;
+nex.addEventListener("click", slideAfter);
+function slideAfter() {
+    slideContent[counter].style.animation = "nex1 0.5s ease-in forwards";
+    if (counter >= slideContent.length-1) {
+        counter = 0;
     }
     else{
-        counting++;
+        counter++;
     }
-    slidePic[counting].style.animation = "after2 0.5s ease-in forwards";
+    slideContent[counter].style.animation = "nex2 0.5s ease-in forwards";
+}
+
+// code for before button
+pre.addEventListener("click", slideBefore);
+function slideBefore() {
+    slideContent[counter].style.animation = "pre1 0.5s ease-in forwards";
+    if (counter == 0) {
+        counter = slideContent.length-1;
+    }
+    else{
+        counter--;
+    }
+    slideContent[counter].style.animation = "pre2 0.5s ease-in forwards";
 }
