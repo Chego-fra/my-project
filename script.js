@@ -1,4 +1,6 @@
-// access the images
+// access slides
+document.addEventListener("DOMContentLoaded", function() {
+    // access the images
 let slideImages = document.querySelectorAll("[sliderimg]")
 
 // access buttons
@@ -84,45 +86,65 @@ function switchImage(currentImage){
     }
     indicators();
 }
+})
 
 
 
+ // -----------------------------------games----------------
 
 
-// -----------------------------------games----------------
-// access slides
-let slideContent = document.querySelectorAll("[explode]");
+document.addEventListener("DOMContentLoaded", function() {
+    let slideContent = document.querySelectorAll("[explode]");
 
 // access buttons
 let nex = document.querySelector("[nexting]");
 let pre = document.querySelector("[preving]");
 
-
-
-
+var counterGames = 0;
 
 // code for after button
 nex.addEventListener("click", slideAfter);
 function slideAfter() {
-    slideContent[counter].style.animation = "nex1 0.5s ease-in forwards";
-    if (counter >= slideContent.length-1) {
-        counter = 0;
+    slideContent[counterGames].style.animation = "nex1 0.5s ease-in forwards";
+    if (counterGames >= slideContent.length - 1) {
+        counterGames = 0;
+    } else {
+        counterGames++;
     }
-    else{
-        counter++;
-    }
-    slideContent[counter].style.animation = "nex2 0.5s ease-in forwards";
+    slideContent[counterGames].style.animation = "nex2 0.5s ease-in forwards";
 }
 
 // code for before button
 pre.addEventListener("click", slideBefore);
 function slideBefore() {
-    slideContent[counter].style.animation = "pre1 0.5s ease-in forwards";
-    if (counter == 0) {
-        counter = slideContent.length-1;
+    slideContent[counterGames].style.animation = "pre1 0.5s ease-in forwards";
+    if (counterGames == 0) {
+        counterGames = slideContent.length - 1;
+    } else {
+        counterGames--;
     }
-    else{
-        counter--;
-    }
-    slideContent[counter].style.animation = "pre2 0.5s ease-in forwards";
+    slideContent[counterGames].style.animation = "pre2 0.5s ease-in forwards";
 }
+
+
+function autoSliding() {
+    deletInterval = setInterval(timer,1500);
+    function timer() {
+        slideAfter();
+        indicators(); 
+    }
+}
+autoSliding() 
+
+
+// ---------------stop auto sliding when mouse is over-------------
+const container = document.querySelector(".explore-cont")
+container.addEventListener("mouseover", function() {
+    clearInterval(deletInterval);
+});
+// ---------------resume sliding when mouse is out-------------
+container.addEventListener("mouseout", autoSliding);
+
+
+})
+

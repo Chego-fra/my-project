@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: "Work Sans", sans-serif;
 }
 
 
@@ -55,34 +55,33 @@
     margin-top: 10px;
 }
 
-/* <!-- ------------------------Main------------------------- --> */
-.maino{
+/* ------------------------Main------------------------- */
+.maino {
     width: 100%;
     min-height: 100%;
     display: flex;
 }
-.maino .slide-container{
+.maino .slide-container {
     position: relative;
     width: 100%;
     height: 600px;
 }
-.maino .slide-container .slides{
+.maino .slide-container .slides {
     width: 100%;
     height: 100%;
     position: relative;
     overflow: hidden;
 }
-.maino .slide-container .slides img{
+.maino .slide-container .slides img {
     width: 100%;
     height: 100%;
     position: absolute;
-
 }
-.maino .slide-container .slides img:not(.active){
+.maino .slide-container .slides img:not(.active) {
     top: 0;
     left: -100%;
 }
-.maino .slide-container .buttons span{
+.maino .slide-container .buttons span {
     top: 50%;
     transform: translateY(-50%);
     position: absolute;
@@ -95,24 +94,24 @@
     user-select: none;
     padding: 14px;
 }
-.next{
+.next {
     right: 5px;
 }
-.prev{
+.prev {
     left: 5px;
 }
-.next:hover, .prev:hover{
+.next:hover, .prev:hover {
     background: #3399FF;
     opacity: 0.8;
 }
-.dot-container{
+.dot-container {
     position: absolute;
     bottom: 40px;
     z-index: 3;
     left: 50%;
     transform: translateX(-50%);
 }
-.dot-container .dot{
+.dot-container .dot {
     width: 15px;
     height: 15px;
     margin: 0 2px;
@@ -121,42 +120,43 @@
     display: inline-block;
     transition: background 0.6s ease;
 }
-.dot-container .active{
+.dot-container .active {
     background: blue;
 }
 
-@keyframes next1{
-    from{
+@keyframes next1 {
+    from {
         left: 0%;
     }
-    to{
+    to {
         left: -100%;
     }
 }
-@keyframes next2{
-    from{
+@keyframes next2 {
+    from {
         left: 100%;
     }
-    to{
+    to {
         left: 0%;
     }
 }
-@keyframes prev1{
-    from{
+@keyframes prev1 {
+    from {
         left: 0%;
     }
-    to{
+    to {
         left: 100%;
     }
 }
-@keyframes prev2{
-    from{
+@keyframes prev2 {
+    from {
         left: -100%;
     }
-    to{
+    to {
         left: 0%;
     }
 }
+
 
 /* <!-- ------------------------indicator------------------------- --> */
 .indicators{
@@ -220,7 +220,7 @@
 
 /* <!-- ------------------------great------------------------- --> */
 .great{
-    background: black;
+    background: #2b2b2b;
     padding: 20px 5%;
     color: white;
     text-align: center;
@@ -479,7 +479,7 @@
     font-size: 17px;
 }
 .footer .last  .links{
-    margin-left: 450px;
+    margin-left: 400px;
 }
 .footer .last  .links a{
     text-decoration: none;
@@ -604,43 +604,43 @@
 }
 
 /* ----------------------------explore-------------------------- */
-.explore{
+.explore {
     background: #0035dd;
     padding: 20px 5%;
     color: white;
 }
-.explore .explore-cont{
+.explore .explore-cont {
     width: 100%;
     height: 450px;
     position: relative;
 }
-.explore .explore-cont .exploring{
+.explore .explore-cont .exploring {
     width: 100%;
     height: 100%;
     position: relative;
     overflow: hidden;
 }
-.explore .explore-cont .exploring  .explore-content{
+.explore .explore-cont .exploring .explore-content {
     position: absolute;
     width: 100%;
     height: 100%;
 }
-.explore .explore-cont .exploring  .explore-content:not(.explorings){
+.explore .explore-cont .exploring .explore-content:not(.explorings) {
     top: 0%;
     left: -100%;
 }
-.explore .explore-cont .exploring  .explore-content .dove{
+.explore .explore-cont .exploring .explore-content .dove {
     display: flex;
 }
-.explore .explore-cont .exploring  .explore-content .dove .dive{
+.explore .explore-cont .exploring .explore-content .dove .dive {
     margin-left: 10px;
 }
-.explore .explore-cont .exploring  .explore-content .dove .dive img{
+.explore .explore-cont .exploring .explore-content .dove .dive img {
     width: 100%;
     height: 100%;
     border-radius: 20px;
 }
-.explore   .explore-btn span{
+.explore .explore-btn span {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -651,50 +651,66 @@
     border-radius: 50%;
     z-index: 1;
     user-select: none;
-    transition:  background 0.6s ease;
+    transition: background 0.6s ease;
     cursor: pointer;
 }
-.explore   .explore-btn .nexto{
+.explore .explore-btn .nexto {
     right: 20px;
-} 
-.explore   .explore-btn .prevo{
+}
+.explore .explore-btn .prevo {
     left: 20px;
 }
 
-@keyframes nex1{
-    from{
+@keyframes nex1 {
+    from {
         left: 0%;
     }
-    to{
+    to {
         left: -100%;
     }
 }
-@keyframes nex2{
-    from{
+@keyframes nex2 {
+    from {
         left: 100%;
     }
-    to{
+    to {
+        left: 0%;
+    }
+}
+@keyframes pre1 {
+    from {
+        left: 0%;
+    }
+    to {
+        left: 100%;
+    }
+}
+@keyframes pre2 {
+    from {
+        left: -100%;
+    }
+    to {
         left: 0%;
     }
 }
 
 
-@keyframes pre1{
-    from{
-        left: 0%;
-    }
-    to{
-        left: 100%;
-    }
+/* <!-- ----------------------------gaming-------------------------- --> */
+.gaming{
+    padding: 50px 5%;
+    display: flex;
+    background: #0035dd;
 }
-@keyframes pre2{
-    from{
-        left: -100%;
-    }
-    to{
-        left: 0%;
-    }
+.gaming .gam{
+    margin-left: 20px;
 }
+.gaming .gam img{
+    width: 100%;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
 /* <!-- -------------------------------feel--------------------------- -->   */
 
 .feel{
@@ -763,7 +779,41 @@
     border-radius: 20px;
 }
 
-/* <!-- -------------------------------fifa--------------------------- -->  */
+
+
+/* <!-- ------------------------------------free----------------------- --> */
+
+.for{
+    padding: 60px 5%;
+    background: #2b2b2b;
+    color: white;
+    text-align: center;
+}
+.for h1{
+    /* text-align: center; */
+    color: white;
+    font-weight: 600;
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+.for  .tip{
+    display: flex;
+}
+.for  .tip .to{
+    margin-left: 20px;
+}
+.for  .tip .to img{
+    width: 100%;
+    border-radius: 20px;
+    /* box-shadow: 5px 5px 15px 0px #3b3b3b; */
+}
+.for .tip .to  h3{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/* <!-- -------------------------------fifa--------------------------- --> 
+ */
 .cloud{
     background: url(images/g8.png);
     background-position: center;
@@ -791,4 +841,252 @@
     border-radius: 30px;
     font-size: 18px;
     margin-top: 30px;
+}
+
+/* <!-- -------------------------------vr---------------------------  --> */
+.vre{
+    background: #1ec2fa;
+    padding: 30px 5%;
+    color: black;
+
+}
+.vre button{
+    margin-left: 550px;
+    outline: 0;
+    border: 0;
+    padding: 10px 20px;
+    background: #1489f3;
+    color: white;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.vre img{
+    width: 100%;
+}
+.vre h1{
+    font-size: 60px;
+    font-weight: 600;
+    text-align: center;
+}
+.vre  p{
+    text-align: center;
+}
+.vre .ps4 {
+    display: flex;
+}
+.vre .ps4 .blood {
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+.vre .ps4 .blood img{
+    width: 100%;
+    border-radius: 20px;
+}
+.vre .ps4 .blood h2{
+    text-align: center;
+    margin-top: 20px;
+}
+.vre .ps4 .blood p{
+    text-align: center;
+    line-height: 2;
+    margin-top: 40px;
+}
+.vre .ps4 .blood button{
+    outline: 0;
+    border: 0;
+    padding: 10px 20px;
+    background: #1489f3;
+    color: white;
+    margin-left: 80px;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* <!-- -------------------------------Upcomming---------------------------  --> */
+.upcoming{
+    background: url(./images/l1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px 5%;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.upcoming .left h1{
+    font-size: 50px;
+}
+.upcoming .left p{
+    line-height: 2;
+    font-size: 20px;
+}
+.upcoming .left button{
+    outline: 0;
+    border: 0;
+    padding: 10px 20px;
+    background: white;
+    color: black;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.upcoming .right img{
+    width: 100%;
+}
+
+/* <!-- -------------------------------alive---------------------------  --> */
+.alive{
+    background: url(./images/m1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 60px 15%;
+    color: white;
+}
+.alive .in{
+    background: #091d90;
+    backdrop-filter: blur(30px);
+    border-radius: 20px;
+    width: 500px;
+    padding: 30px;
+}
+.alive .in h1{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.alive .in .bit{
+    display: flex;
+    margin-bottom: 20px;
+}
+.alive .in .bit .left img{
+    width: 100px;
+}
+
+.alive .in .bit .right p{
+    width: 300px;
+    line-height: 2;
+    font-size: 18px;
+}
+
+
+/* <!-- ------------------------like------------------------- --> */
+.like{
+    background: #ececec;
+    padding: 30px 10%;
+}
+.like video{
+    width: 850px;
+    border-radius: 40px;
+    margin-left: 190px;
+}
+.like h1{
+    text-align: center;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.like .trigger{
+    display: flex;
+}
+.like .trigger .left img{
+    width: 100%;
+}
+.like .trigger .left{
+    text-align: center;
+    flex-basis: 49%;
+}
+.like .trigger .left h2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.like .trigger .right h2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.like .trigger .left p{
+    line-height: 2;
+}
+.like .trigger .left button{
+    outline: 0;
+    border: 0;
+    padding: 10px 20px;
+    background: #1489f3;
+    color: white;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.like .trigger .right button{
+    outline: 0;
+    border: 0;
+    padding: 10px 20px;
+    background: #1489f3;
+    color: white;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.like .trigger .right p{
+    line-height: 2;
+}
+.like .trigger .right img{
+    width: 100%;
+}
+.like .trigger .right{
+    text-align: center;
+    flex-basis: 49%;
+}
+
+/* <!-- ------------------------portal------------------------- --> */
+.portal{
+    display: flex;
+    padding: 30px 8%;
+    align-items: center;
+}
+.portal .right img{
+    width: 100%;
+}
+.portal .left h1{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.portal .left p{
+    line-height: 2;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.portal .left button{
+    outline: 0;
+    border: 0;
+    padding: 10px 20px;
+    background: #1489f3;
+    color: white;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+/* <!-- ------------------------marvel------------------------- --> */
+.marvel{
+    background: #f5f7fa;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 15%;
+}
+.marvel img{
+    width: 150px;
+    margin-bottom: 20px;
+}
+.marvel .lower{
+    margin-bottom: 60px;
 }
