@@ -128,7 +128,7 @@ function slideBefore() {
 
 
 function autoSliding() {
-    deletInterval = setInterval(timer,1500);
+    deletInterval = setInterval(timer,2000);
     function timer() {
         slideAfter();
         indicators(); 

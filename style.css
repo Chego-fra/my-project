@@ -1090,3 +1090,176 @@
 .marvel .lower{
     margin-bottom: 60px;
 }
+
+
+
+
+
+
+/* <!-- ------------------------------------ps5------------------------------- --> */
+.never{
+    padding: 30px 5%;
+    text-align: center;
+}
+.never h1{
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+.never p{
+    font-size: 18px;
+    line-height: 2;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+.never .stuning{
+    display: flex;
+    background: url(./images/v1.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    border-radius: 20px;
+}
+.never .stuning .left{
+    flex-basis: 49%;
+    text-align: center;
+}
+.never .stuning .left img{
+    width: 100px;
+}
+.never .stuning .left h2{
+    font-size: 30px;
+}
+.never .stuning .left .reduce{
+    width: 500px;
+    margin-left: 100px;
+}
+.never .stuning .left h5{
+    color: blue;
+}
+.never .stuning .right img{
+    width: 100%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.never .stuning .right{
+    flex-basis: 49%;
+}
+
+
+
+/* <!-- ----------------------------lighting------------------------------- -->  */
+.lighting{
+    padding: 30px 5%;
+    display: flex;
+}
+.lighting .left .opt{
+    width: 80px;
+}
+.lighting .left{
+    background: #e6e9f2;
+    margin-right: 30px;
+    border-radius: 20px;
+    text-align: center;
+}
+.lighting .left img{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.lighting .left h1{
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.lighting .left p{
+    line-height: 2;
+    font-size: 18px;
+}
+.lighting .left h5{
+    color: #0035dd;
+    margin-bottom: 30px;
+}
+.lighting .right{
+    background: #e6e9f2;
+    border-radius: 20px;
+    text-align: center;
+}
+.lighting .right img{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.lighting .right .opt{
+    width: 80px;
+}
+.lighting .right h1{
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.lighting .right p{
+    line-height: 2;
+    font-weight: 18px;
+}
+.lighting .right h5{
+    color: #0035dd;
+    margin-bottom: 30px;
+}
+
+/* <!-- ----------------------------the------------------------------- -->  */
+.the{
+    padding: 30px 5%;
+    background: #0035dd;
+    text-align: center;
+    color: white;
+}
+.the h2{
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.the  p{
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.the .in{
+    display: flex;
+}
+.the button{
+    outline: 0;
+    border: 0;
+    padding: 10px 20px;
+    background: white;
+    color: black;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.the .in .out{
+    margin-left: 20px;
+    text-align: center;
+    color: white;
+}
+.the .in .out img{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.the .in .out h3{
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+.the .in .out  p{
+    line-height: 2;
+    font-size: 18px;
+}
+.the .in .out button{
+    outline: 0;
+    border: 0;
+    padding: 10px 20px;
+    background: white;
+    color: black;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
