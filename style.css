@@ -1263,3 +1263,424 @@
     font-weight: 600;
     margin-bottom: 20px;
 }
+
+/* 
+<!-- ------------------------spectacular------------------------- --> */
+
+.spectacular{
+    background-image: url(./images/bluebg.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 700px;
+}
+.spectacular h1{
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    font-size: 50px;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+.spectacular  p{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+.spectacular .near .ne {
+    display: flex;
+    margin-top: 100px;
+    margin-left: 700px;
+}
+.spectacular .ne .right h3{
+    color: #3399FF;
+}
+.spectacular .ne .right p{
+    color: black;
+    font-size: 16px;
+    text-align: start;
+    width: 600px;
+}
+.spectacular .near .ne .left img{
+    width: 80px;
+}
+.spectacular .near  .ne .right img{
+    width: 80px;
+}
+
+/* <!-- ------------------------spec------------------------- --> */
+.spec{
+    display: flex;
+    background: #FFFFFF;
+    padding: 0 5%;
+}
+.spec .five{
+    margin-left: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.spec .five img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.spec .five .con{
+    width: 60px;
+}
+.spec .five h4{
+    color: #1ec2fa;
+    margin-bottom: 20px;
+}
+.spec .five p{
+    line-height: 2;
+}
+.spec .five button{
+    border: 0;
+    outline: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: #091d90;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+/* <!-- ------------------------immerse------------------------- --> */
+.immerse{
+    background: #FFFFFF;
+    padding: 30px 5%;
+    text-align: center;
+}
+.immerse h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.immerse p{
+    font-weight: 600;
+    font-size: 18px;
+}
+.immerse .smaller{
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+.immerse .six{
+    display: flex;
+}
+.immerse .six .left{
+    margin-right: 20px;
+}
+.immerse .six .left video{
+    width: 100%;
+    border-radius: 40px;
+}
+.immerse .six .right video{
+    width: 100%;
+    border-radius: 40px;
+}
+.immerse .six .righty{
+    text-align: start;
+}
+.immerse .six .righty h1{
+    font-size: 25px;
+    margin-top: 30px;
+}
+.immerse .six .righty p{
+    font-size: 16px;
+    margin-right: 30px;
+    line-height: 2;
+}
+.immerse  button{
+    border: 0;
+    outline: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: #091d90;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+/* <!-- ------------------------enhance------------------------- --> */
+.enhance{
+    background-image: url(./images/echance.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px 10%;
+    width: 100%;
+    height: 600px;
+}
+.enhance h1{
+    color: white;
+    padding-top: 50px;
+    font-weight: 600;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.enhance p{
+    width: 700px;
+    line-height: 2;
+    color: white;
+    font-size: 18px;
+}
+
+/* <!-- ------------------------acce------------------------- -- */
+.acce{
+    background-image: url(./images/ps5-overview-blue-momentum-background-desktop-03-en-21jun24.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0 5%;
+    text-align: center;
+}
+.acce h1{
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+    margin: 20px 0px;
+}
+.acce  p{
+    color: white;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.acce button{
+    border: 0;
+    outline: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: white;
+    color: black;
+    margin-bottom: 20px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.seven{
+    display: flex;
+}
+.seven .left{
+    background: #F4F6FB;
+    margin-left: 10px;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.seven .left img{
+    width: 100%;
+}
+.seven .left  h3{
+    margin-bottom: 20px;
+}
+.seven .left p{
+    color: black;
+    line-height: 2;
+    font-size: 16px;
+}
+.seven .left  button{
+    border: 0;
+    outline: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: #091d90;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.seventy {
+    display: flex;
+    background: #F4F6FB;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.seventy  .lefty img{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.seventy  .lefty {
+    flex-basis: 49%;
+}
+.seventy  .righty{
+flex-basis: 49%;
+}
+.seventy  .righty h3{
+    margin-top: 30px;
+}
+.seventy  .righty p{
+    color: black;
+    font-size: 16px;
+    line-height: 2;
+}
+.seventy  .righty button{
+    border: 0;
+    outline: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: #091d90;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.seventy  .righty .smallest{
+    font-size: 12px;
+}
+
+
+/* <!-- ------------------------ga------------------------- --> */
+.ga{
+    display: flex;
+    padding: 0 5%;
+    align-items: center;
+}
+.ga .left img{
+    width: 100%;
+}
+.ga .left{
+    margin-right: 20px;
+}
+.ga .right h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.ga .right  p{
+    color: black;
+    font-size: 18px;
+    line-height: 2;
+}
+.ga .right  button{
+    border: 0;
+    outline: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: #091d90;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+/* <!-- ------------------------app------------------------- --> */
+.app{
+    background-image: url(./images/graybg.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+}
+.app .right img{
+    width: 100%;
+}
+.app .left{
+    width: 900px;
+}
+.app .left h3{
+    font-size: 29px;
+    margin-bottom: 20px;
+}
+.app .left p{
+    line-height: 2;
+    color: black;
+}
+.app .left  button{
+    border: 0;
+    outline: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: #091d90;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+/* <!-- ------------------------for------------------------- --> */
+.francis {
+    padding: 30px 5%;
+    text-align: center;
+}
+.francis h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.francis p{
+    color: black;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.francis .eight{
+    display: flex;
+}
+.francis .eight .left img, .francis .eight .right img{
+    width: 500px;
+}
+.francis .eight .left h2, .francis .eight .right h2{
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+.francis .eight .left p, .francis .eight .right p{
+    font-size: 16px;
+    width: 700px;
+    line-height: 2;
+}
+.francis .eight .right .smallest{
+    font-size: 12px;
+}
+.francis button{
+    border: 0;
+    outline: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: red;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+/* <!-- ------------------------enter------------------------- --> */
+.enter{
+    background: url(./images/bluubg.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30px 5%;
+    text-align: center;
+}
+.enter .sign img{
+    width: 300px;
+    margin-bottom: 20px;
+}
+.enter h1{
+    font-size: 60px;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.enter .nine{
+    display: flex;
+}
+.enter .nine .ten{
+    margin-left: 10px;
+    text-align: start;
+}
+.enter .nine .ten img{
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.enter .nine .ten h4{
+    color: white;
+    font-size: 20px;
+}
+.enter .nine .ten p{
+    color: white;
+    font-size: 14px;
+}

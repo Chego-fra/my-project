@@ -42,7 +42,7 @@ function slideBackwards() {
 
 // autosliding 
 function autosliding() {
-    deleteInterval = setInterval(timer, 1500);
+    deleteInterval = setInterval(timer, 2000);
     function timer() {
         slideForward();
         indicators();
