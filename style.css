@@ -1440,7 +1440,7 @@
     font-size: 50px;
     font-weight: 600;
     color: white;
-    margin: 20px 0px;
+    padding: 20px 0px;
 }
 .acce  p{
     color: white;
@@ -1684,3 +1684,219 @@ flex-basis: 49%;
     color: white;
     font-size: 14px;
 }
+
+/* <!-- ------------------------ps4------------------------- --> */
+.ps4{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/ps41.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    text-align: center;
+    height: 600px;
+}
+.ps4 .eleven{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+}
+.ps4 .eleven .left img{
+    width: 150px;
+}
+.ps4 .eleven .right{
+    margin-left: 20px;
+}
+.ps4 .eleven .right h1{
+    font-size: 100px;
+    color: white;
+    font-weight: 600;
+}
+.ps4 p{
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+}
+
+
+
+/* <!-- ------------------------consol------------------------- --> */
+.consol{
+    padding: 0 10%;
+    text-align: center;
+    background: #FFFFFF;
+    margin: 50px 0;
+}
+.consol h1{
+    color: #1489f3;
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.consol p{
+    font-weight: 600;
+    font-size: 18px;
+    color: black;
+}
+.consol .twelve{
+    display: flex;
+}
+.consol .twelve .left{
+    margin-left: 20px;
+}
+.consol .twelve .left img{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.consol .twelve .left h3{
+    color: #1489f3;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.consol .twelve .left .smallest{
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.consol  button{
+    border: 0;
+    outline: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: red;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+
+/* <!-- ------------------------ghost------------------------- --> */
+.ghost{
+    background-image: url(./images/gb2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 800px;
+    padding: 350px 5%;
+}
+.ghost .thirteen{
+    background: rgba(0, 0, 0, 0.523);
+    padding: 10px;
+    width: 600px;
+    border-radius: 20px;
+    color: white;
+}
+.ghost .thirteen h2{
+    font-size: 40px;
+}
+.ghost .thirteen  p{
+    font-size: 18px;
+    line-height: 2;
+}
+.ghost .thirteen  button{
+    border: 0;
+    outline: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: #FFFFFF;
+    color: black;
+    margin-bottom: 20px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+/* 
+<!-- ------------------------credibl------------------------- --> */
+.credibl{
+    padding: 0 5%;
+    text-align: center;
+    margin: 30px 0;
+}
+.credibl h1{
+    color: #1489f3;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.credibl h4{
+    font-size: 19px;
+    margin-bottom: 40px;
+}
+.credibl .fourteen{
+    display: flex;
+    align-items: center;
+}
+.credibl .fourteen .left{
+    margin-right: 20px;
+}
+.credibl .fourteen .left img{
+    width: 100%;
+}
+.credibl .fourteen  .right{
+    text-align: start;
+}
+.credibl .fourteen  .right h3{
+    font-weight: 600;
+    font-size: 30px;
+}
+.credibl .fourteen  .right p{
+    line-height: 2;
+    font-size: 18px;
+}
+
+
+/* <!-- ------------------------credi------------------------- --> */
+.credi{
+    background-image: url(./images/ps42.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 800px;
+    text-align: center;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+.credi .fifteen{
+    /* background: rgba(0, 0, 0, 0.523); */
+    width: 800px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 500px;
+    padding-top: 350px;
+}
+.credi .fifteen .sixteen{
+        background: rgba(0, 0, 0, 0.523);
+        padding: 10px;
+        border-radius: 20px;
+}
+.credi .fifteen .sixteen h2{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.credi .fifteen .sixteen p{
+    line-height: 2;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.credi .fifteen .sixteen button{
+    border: 0;
+    outline: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: #FFFFFF;
+    color: black;
+    margin-bottom: 20px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
