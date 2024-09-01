@@ -1686,7 +1686,7 @@ flex-basis: 49%;
 }
 
 /* <!-- ------------------------ps4------------------------- --> */
-.ps4{
+.winyo{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/ps41.webp);
     background-position: center;
     background-size: cover;
@@ -1695,24 +1695,24 @@ flex-basis: 49%;
     text-align: center;
     height: 600px;
 }
-.ps4 .eleven{
+.winyo .eleven{
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 200px;
 }
-.ps4 .eleven .left img{
+.winyo .eleven .left img{
     width: 150px;
 }
-.ps4 .eleven .right{
+.winyo .eleven .right{
     margin-left: 20px;
 }
-.ps4 .eleven .right h1{
+.winyo .eleven .right h1{
     font-size: 100px;
     color: white;
     font-weight: 600;
 }
-.ps4 p{
+.winyo p{
     font-size: 30px;
     color: white;
     font-weight: 600;
@@ -1856,7 +1856,6 @@ flex-basis: 49%;
     color: white;
     justify-content: center;
     align-items: center;
-    margin: 20px 0;
 }
 .credi .fifteen{
     /* background: rgba(0, 0, 0, 0.523); */
@@ -1864,7 +1863,7 @@ flex-basis: 49%;
     text-align: center;
     align-items: center;
     justify-content: center;
-    margin-left: 500px;
+    margin-left: 400px;
     padding-top: 350px;
 }
 .credi .fifteen .sixteen{
@@ -1893,10 +1892,302 @@ flex-basis: 49%;
     font-size: 18px;
     margin-top: 20px;
 }
+/* 
+<!-- ------------------------hits------------------------- --> */
+.hits{
+    background-image: url(./images/h1.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 40px 5%;
+    text-align: center;
+    color: white;
+    height: 700px;
+}
+.hits h1{
+    font-size: 50px;
+    margin-bottom: 50px;
+    font-weight: 600;
+}
+.hits p{
+    margin-bottom: 50px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.hits img{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.hits  button{
+    border: 0;
+    outline: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: #ffffff50;
+    color: white;
+    margin-bottom: 20px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+/* <!-- ------------------------vr------------------------- --> */
+.live{
+    background-image: url(./images/h3.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 950px;
+    text-align: center;
+    padding: 50px 10%;
+}
+.live img{
+    width: 100%;
+}
+.live .seventeen{
+    background: #9BDDFF;
+    border-radius: 20px;
+    padding: 20px;
+    color: black;
+    margin-bottom: 50px;
+}
+.live .seventeen h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+.live .seventeen p{
+    line-height: 2;
+    font-size: 18px;
+    font-weight: 600;
+}
+.live button{
+    border: 0;
+    outline: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: #ffffff50;
+    color: white;
+    margin-bottom: 20px;
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+/* 
+<!-- ------------------------plus------------------------- --> */
+.plus{
+    background-image: url(./images/h6.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 50px 5%;
+    color: black;
+    align-items: start;
+    text-align: start;
+    justify-content: start;
+}
+.plus .eighteen{
+    width: 700px;
+    align-items: start;
+    text-align: start;
+    justify-content: start;
+}
+.plus .eighteen p{
+    line-height: 2;
+}
+.plus .eighteen .nighteen{
+    width: 100%;
+    display: flex;
+    align-items: start;
+    text-align: start;
+    justify-content: start;
+}
+.plus .eighteen .nighteen .twenty{
+    width: 100%;
+    margin-right: 50px;
+    align-items: start;
+    text-align: start;
+    justify-content: start;
+}
+.plus .eighteen .nighteen .twenty img{
+    width: 100%;
+}
+.plus .eighteen .nighteen .twenty p{
+    line-height: 2;
+}
+.plus .eighteen button{
+    border: 0;
+    outline: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: #ffffff50;
+    color: black;
+    margin-bottom: 20px;
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+/* <!-- ------------------------ps4pads------------------------- --> */
+.chege{
+    background-image: url(./images/h7.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    text-align: center;
+    height: 700px;
+    padding: 20px 5%;
+}
+.chege h1{
+    color: #1489f3;
+    font-weight: 600;
+}
+.chege p{
+    font-weight: 600;
+    font-size: 18px;
+}
+.chege button{
+    margin-top: 400px;
+    border: 0;
+    outline: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: #1489f3;
+    color: white;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* <!-- ------------------------entertaintment------------------------- -->
+ */
+.spotify{
+    background: #1F1F1F;
+    padding: 50px 5%;
+    text-align: center;
+    color: white;
+}
+.spotify h1{
+    margin-bottom: 20px;
+}
+.spotify p{
+    margin-bottom: 20px;
+}
+.spotify img{
+    width: 100%;
+}
+.spotify  button{
+    border: 0;
+    outline: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: #ffffff50;
+    color: white;
+    margin-bottom: 20px;
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+/* <!-- ------------------------remote------------------------- --> */
+.remote{
+    padding: 50px 5%;
+    background: #FFFFFF;
+    text-align: center;
+}
+.remote h1{
+    margin-bottom: 20px;
+    color: #3399FF;
+    font-size: 50px;
+    font-weight: 600;
+}
+.remote p{
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 2;
+    margin-top: 20px;
+}
+.remote .twentyone{
+    display: flex;
+    text-align: start;
+    margin-top: 80px;
+}
+.remote .twentyone  .left h3{
+    color: #3399FF;
+}
+.remote .twentyone  .left p{
+    width: 700px;
+}
+.remote .twentyone .right img{
+    width: 400px;
+    margin-left: 200px;
+}
+.remote .share{
+    display: flex;
+    padding: 0 15%;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+.remote .share .friends{
+    margin-right: 20px;
+}
+.remote .share .friends img{
+    width: 100px;
+    margin-bottom: 20px;
+}
+.remote .share .friends  h3{
+    margin-bottom: 20px;
+    color: #3399FF;
+}
+.remote button{
+    border: 0;
+    outline: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: #F0F0F0;
+    color: #3399FF;
+    margin-bottom: 20px;
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: 600;
+}
 
 
-
-
-
-
-
+/* <!-- ------------------------upgrade------------------------- --> */
+.upgrade{
+    display: flex;
+    padding: 50px 5%;
+    background-image: url(./images/u2.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+.upgrade .right img{
+    width: 100%;
+}
+.upgrade .left h1{
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #3399FF;
+}
+.upgrade .left p{
+    line-height: 2;
+    font-size: 18px;
+    font-weight: 600;
+}
+.upgrade .left span button{
+    border: 0;
+    outline: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: #3399FF;
+    color: white;
+    margin-bottom: 20px;
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: 600;
+}
