@@ -2191,3 +2191,461 @@ flex-basis: 49%;
     margin-top: 20px;
     font-weight: 600;
 }
+
+/* 
+<!-- ------------------------services------------------------- --> */
+#sevices{
+    background-image: url(./images/sb1.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    padding: 150px 5%;
+}
+#sevices h2{
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+#sevices h1{
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+#sevices p{
+    width: 650px;
+    margin-bottom: 30px;
+    line-height: 2;
+    font-weight: 600;
+} 
+#sevices button{
+    border: 0;
+    outline: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: #3399FF;
+    color: white;
+    margin-bottom: 20px;
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+/* <!-- ------------------------compare------------------------- --> */
+#compare{
+    padding: 30px 5%;
+    text-align:  center;
+}
+#compare h1{
+    font-weight: 600;
+    color: black;
+    font-size: 55px;
+    margin-bottom: 30px;
+}
+#compare .servicesss{
+    display: flex;
+    text-align: start;
+}
+#compare p{
+    font-weight: 600;
+    margin-bottom: 30px;
+    font-family: 25px;
+}
+#compare .servicesss .one{
+    margin-right: 30px;
+    padding: 20px;
+    box-shadow: 2px 4px 10px 0 #ccc;
+    border-radius: 20px;
+    height: fit-content;
+}
+#compare .servicesss .one:hover{
+    background: #bbbbbba8;
+}
+
+#compare .servicesss .one img{
+    width: 100%;
+    margin-bottom: 30px;
+}
+#compare .servicesss .one h2{
+    background: black;
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+    margin-bottom: 30px;
+}
+#compare .servicesss .one p{
+    font-weight: 600;
+}
+#compare button{
+    border: 0;
+    outline: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: #3399FF;
+    color: white;
+    margin-bottom: 20px;
+    font-size: 18px;
+    margin-top: 50px;
+    font-weight: 600;
+}
+
+
+/* <!-- ------------------------Whats New------------------------- --> */
+#whatsnew {
+    background: #bbb;
+    padding: 30px 5%;
+    text-align: center;
+}
+#whatsnew h1{
+    font-size: 55px;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 30px;
+}
+#whatsnew p{
+    font-weight: 600;
+    font-weight: 18px;
+    margin-bottom: 30px;
+}
+#whatsnew img{
+    width: 100%;
+    border-radius: 20px;
+}
+#whatsnew  button{
+    border: 0;
+    outline: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: #3399FF;
+    color: white;
+    margin-bottom: 20px;
+    font-size: 18px;
+    margin-top: 50px;
+    font-weight: 600;
+}
+/* <!-- ------------------------premium------------------------- --> */
+#prenium{
+    background: #252425;
+    text-align: center;
+    color: white;
+    padding: 40px;
+}
+#prenium h2{
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+#prenium  h1{
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 30px;
+    font-size: 55px;
+}
+
+/* <!-- ------------------------power------------------------- --> */
+#power{
+    background: black;
+    display: flex;
+    color: white;
+    padding: 30px 5%;
+}
+#power .left{
+    margin-right: 30px;
+}
+#power .left video{
+    width: 100%;
+    border-radius: 20px;
+}
+#power .right h2{
+    margin-bottom: 20px;
+}
+#power .right p{
+    line-height: 2;
+}
+#power .right span .mauroon{
+    border: 0;
+    outline: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: red;
+    color: white;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 10px;
+}
+#power .right span button{
+    border: 0;
+    outline: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: #3399FF;
+    color: white;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 10px;
+}
+#power .right  .smaller{
+    font-size: 10px;
+}
+
+/* <!-- ------------------------trial------------------------- --> */
+#trial{
+    background: #252425;
+    display: flex;
+    color: white;
+    padding: 30px 5%;
+    align-items: center;
+}
+#trial .left img{
+    width: 100px;
+    margin-bottom: 30px;
+}
+#trial .right{
+    margin-left: 20px;
+}
+#trial .right img{
+    width: 100%;
+}
+#trial .left  h2{
+    margin-bottom: 20px;
+}
+#trial .left p{
+    width: 700px;
+    line-height: 2;
+}
+#trial .left button{
+    border: 0;
+    outline: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: white;
+    color: black;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+#trial  .smaller{
+    font-size: 10px;
+}
+
+/* <!-- ------------------------trial------------------------- --> */
+#trials{
+    background: black;
+    display: flex;
+    color: white;
+    padding: 30px 5%;
+    align-items: center;
+}
+#trials .left img{
+    width: 100px;
+    margin-bottom: 30px;
+}
+#trials .right{
+    margin-right: 40px;
+}
+#trials .right img{
+    width: 100%;
+}
+#trials .left  h2{
+    margin-bottom: 20px;
+}
+#trials .left p{
+    width: 700px;
+    line-height: 2;
+}
+#trials .left button{
+    border: 0;
+    outline: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: white;
+    color: black;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+/* <!-- ------------------------core------------------------- --> */
+#core{
+    background-image: url(./images/sony-core-hero-banner-desktop-01-en-12june24.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    padding: 100px 5%;
+    color: #ccc;
+}
+#core h2{
+    font-size: 16px;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+#core h1{
+    font-weight: 600;
+    font-size: 45px;
+    margin-bottom: 30px;
+    color: white;
+}
+#core .bring{
+    line-height: 2;
+    width: 700px;
+}
+#core button{
+    border: 0;
+    outline: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: white;
+    color: black;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* <!-- ------------------------extra------------------------- --> */
+#extra{
+    background-image: url(./images/ps-plus-extra-grid-background-block-desktop-03-en-19may22.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 50px 5%;
+    text-align: center;
+}
+#extra h2{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+#extra  h1{
+    font-size: 55px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+#extra  p{
+    font-size: 18px;
+    font-weight: 600;
+}
+#extra .one{
+    display: flex;
+    align-items: center;
+    text-align: start;
+}
+#extra .one .left{
+    text-align: start;
+    margin-right: 20px;
+}
+#extra .one .left img{
+    width: 70px;
+    margin-bottom: 30px;
+}
+#extra .one .left h3{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+#extra .one .left p{
+    line-height: 2;
+    width: 650px;
+}
+#extra .one .left button{
+    border: 0;
+    outline: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: #1489f3;
+    color: white;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+#extra .one .left  .smaller{
+    font-size: 12px;
+}
+#extra .one .right img{
+    width: 100%;
+}
+#extra .one .lefty img{
+    width: 100%;
+}
+#extra .one .righty img{
+    width: 200px;
+    margin-bottom: 30px;
+}
+#extra .one .righty {
+    margin-left: 30px;
+}
+#extra .one .righty  p{
+    width: 650px;
+    line-height: 2;
+}
+#extra .one .righty  h2{
+    font-size: 30px;
+}
+
+
+/* <!-- ------------------------plus------------------------- --> */
+#plus{
+    padding: 30px 5%;
+    text-align: center;
+}
+#plus h2{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+#plus h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+#plus p{
+    font-weight: 600;
+}
+#plus .one{
+    display: flex;
+    margin-top: 30px;
+}
+#plus .one .two{
+    margin-right: 30px;
+}
+#plus .one .two img{
+    width: 80px;
+    margin-bottom: 20px;
+}
+#plus .one .two h3{
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+#plus .one .two p{
+    line-height: 2;
+    margin-bottom: 20px;
+}
+#plus .one .two button{
+    border: 0;
+    outline: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: #1489f3;
+    color: white;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+#plus .one .two  .red{
+    border: 0;
+    outline: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: red;
+    color: white;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+#plus .one .two .smaller{
+    font-size: 10px;
+}
