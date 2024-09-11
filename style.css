@@ -2649,3 +2649,611 @@ flex-basis: 49%;
 #plus .one .two .smaller{
     font-size: 10px;
 }
+
+
+
+/* <!-- --------------------accessories----------------------------- --> */
+#accessories{
+    background-image: url(./images/zb2.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    /* height: 550px; */
+    text-align: center;
+    padding: 50px 5%;
+    color: white;
+}
+#accessories img{
+    width: 100%;
+}
+#accessories  h1{
+    font-size: 55px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+#accessories p{
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+/* <!-- --------------------latest----------------------------- --> */
+#latest{
+    text-align: center;
+    padding: 60px 0;
+}
+#latest h3{
+    color: #1ec2fa;
+    margin-bottom: 20px;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+#latest p{
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+/* <!-- --------------------quik links----------------------------- --> */
+#quik{
+    background: #F4F7FB;
+    padding: 50px 5%;
+    text-align: center;
+}
+#quik h2{
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+#quik  p{
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+#quik .all{
+    display: flex;
+}
+#quik .all .one {
+    margin-right: 30px;
+    background: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+#quik .all a{
+    text-decoration: none;
+    color: black;
+    width: 100%;
+}
+#quik .all .one img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+#quik .alls a{
+    text-decoration: none;
+    color: black;
+    width: 100%; 
+}
+#quik .alls{
+    padding: 0 30%;
+    display: flex;
+    margin-top: 50px;
+}
+#quik .alls .one {
+    margin-right: 30px;
+    background: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+#quik .alls .one img{
+    width: 100%;
+    margin-bottom: 20px;
+    height: 100%;
+}
+
+/* <!-- --------------------wirelesspads----------------------------- --> */
+#gamepad{
+    text-align: center;
+    padding: 50px 5%;
+}
+#gamepad h1{
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+#gamepad p{
+    margin-bottom: 40px;
+    font-weight: 600;
+}
+#gamepad button{
+    border: 0;
+    outline: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: red;
+    color: white;
+    margin-bottom: 40px;
+    font-size: 18px;
+    font-weight: 600;
+}
+#gamepad .one{
+    display: flex;
+    align-items: center;
+}
+#gamepad .one .left img{
+    width: 100%;
+}
+#gamepad .one .right h2{
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+#gamepad .one .right  p{
+    line-height: 2;
+    margin-bottom: 20px;
+}
+#gamepad .one .lefty img{
+    width: 100%;
+}
+#gamepad .one .lefty{
+    margin-right: 20px;
+}
+#gamepad .one .righty img{
+    width: 100%;
+}
+#gamepad .ones .leftys img{
+    width: 100%;
+}
+#gamepad .ones .leftys{
+    background: #F7F6F7;
+    padding: 20px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+#gamepad .ones .rightys{
+    background: #F7F6F7;
+    padding: 20px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+#gamepad .ones .middle{
+    background: #F7F6F7;
+    padding: 20px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+#gamepad .ones .rightys img{
+    width: 100%;
+}
+#gamepad .ones .middle img{
+    width: 100%;
+}
+#gamepad .ones{
+    display: flex;
+}
+
+
+/* <!-- --------------------audio----------------------------- --> */
+#audio{
+    background-image: url(./images/ze1.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    text-align: center;
+    padding: 40px 5%;
+}
+#audio h1{
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+#audio  p{
+    font-weight: 600;
+    line-height: 2;
+    margin-bottom: 20px;
+}
+#audio  .smallest{
+    font-size: 14px;
+}
+#audio  .one{
+    display: flex;
+}
+#audio  .one .two img{
+    width: 700px;
+    margin-bottom: 20px;
+}
+#audio  .one .two h2{
+    color: #1489f3;
+    margin-bottom: 20px;
+}
+#audio  .one .two button{
+    border: 0;
+    outline: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: red;
+    color: white;
+    margin-bottom: 40px;
+    font-size: 18px;
+    font-weight: 600;
+}
+#audio  .one .three{
+    margin-right: 20px;
+}
+#audio h2{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+#audio  .one .three img{
+    width: 100%;
+    background: #F7F6F7;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+
+     /* <!-- --------------------addons----------------------------- --> */
+#addons{
+    padding: 30px 5%;
+    text-align: center;
+}
+#addons h1{
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+#addons p{
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+#addons .one{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+#addons .one .four{
+  margin-right: 20px;
+}
+#addons .one .four img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+#addons .one .four h2{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+#addons .one .four p{
+    line-height: 2;
+}
+#addons .one .four button{
+    border: 0;
+    outline: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: red;
+    color: white;
+    margin-bottom: 40px;
+    font-size: 18px;
+    font-weight: 600;
+}
+#addons .one .four .smallest{
+    font-size: 10px;
+}
+#addons .one .left{
+    margin-right: 30px;
+}
+#addons .one .left h2{
+    color: #1489f3;
+    margin-bottom: 20px;
+}
+#addons .one .left  p{
+    line-height: 2;
+    margin-bottom: 20px;
+}
+#addons .one .left  button{
+    border: 0;
+    outline: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: red;
+    color: white;
+    margin-bottom: 40px;
+    font-size: 18px;
+    font-weight: 600;
+}
+#addons .one .right img{
+    width: 800px;
+}
+#addons .two{
+    display: flex;
+}
+#addons  .two .five{
+    box-shadow: 5px 5px 15px 0px rgba(211, 211, 211, 1);
+    margin-right: 20px;
+    border-radius: 20px;
+    padding: 5px;
+}
+#addons  .two .five img{
+    width: 100%;
+}
+#addons .twos{
+    display: flex;
+    padding: 0 5%;
+    margin-top: 20px;
+}
+#addons  .twos .five {
+    box-shadow: 5px 5px 15px 0px rgba(211, 211, 211, 1);
+    border-radius: 20px;
+    margin-right: 20px;
+    padding: 5px;
+}
+#addons  .twos .five img{
+    width: 100%;
+}
+#addons .dotz{
+    width: 150px;
+    margin-top: 80px;
+}
+#addons button{
+    border: 0;
+    outline: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: red;
+    color: white;
+    margin-bottom: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+#addons .three{
+    display: flex;
+    padding: 0 20%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#addons .three .lefty {
+    box-shadow: 5px 5px 15px 0px rgba(211, 211, 211, 1);
+    border-radius: 20px;
+    margin-right: 20px;
+    padding: 5px;
+}
+#addons .three .lefty img{
+    width: 100%;
+}
+
+/* <!-- --------------------storage----------------------------- --> */
+#storage{
+    background-image: url(./images/zg5.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 30px 5%;
+    text-align: center;
+}
+#storage  button{
+    border: 0;
+    outline: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: red;
+    color: white;
+    margin-bottom: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+#storage h1{
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+#storage p{
+    line-height: 2;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+#storage .one{
+    display: flex;
+}
+#storage .one .left img{
+    width: 100%;
+}
+#storage .one .left h2{
+    font-size: 25px;
+    font-weight: 600;
+    color: #1ec2fa;
+    margin-bottom: 20px;
+}
+#storage .one .left button{
+    border: 0;
+    outline: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: red;
+    color: white;
+    margin-bottom: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+
+/* <!-- --------------------camera----------------------------- --> */
+#camera{
+    background-image: url(./images/zg5.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 30px 5%;
+    text-align: center;
+}
+#camera h1{
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+#camera p{
+    line-height: 2;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+#camera .one{
+    display: flex;
+}
+#camera .one .left img{
+    width: 100%;
+}
+#camera .one .left h2{
+    font-size: 25px;
+    font-weight: 600;
+    color: #1ec2fa;
+    margin-bottom: 20px;
+}
+#camera .one .left button{
+    border: 0;
+    outline: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: red;
+    color: white;
+    margin-bottom: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+
+/* <!-- --------------------stick----------------------------- --> */
+#stick{
+    background-image: url(./images/zi8.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 30px 5%;
+    text-align: center;
+}
+#stick h1{
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+#stick p{
+    line-height: 2;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+#stick .one{
+    display: flex;
+    align-items: center;
+    text-align: start;
+}
+#stick .one .left img{
+    width: 100%;
+}
+#stick .one .right h2{
+    font-weight: 600;
+}
+#stick .one .right  .blue{
+    color: #1489f3;
+}
+#stick .one .right button{
+    border: 0;
+    outline: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: red;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+#stick .one .lefty{
+
+    text-align: center;
+}
+#stick .one .lefty img{
+    width: 200px;
+    height: 150px;
+    box-shadow: 5px 5px 15px 0px rgba(211, 211, 211, 1);
+    border-radius: 20px;
+    margin-right: 20px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+/* <!-- ------------------------arcade------------------------- --> */
+#arcade{
+    background: black;
+    text-align: center;
+    padding: 30px 5%;
+    color: white;
+}
+#arcade h1{
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+#arcade p{
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+#arcade .one{
+    display: flex;
+}
+#arcade .one .left{
+    margin-right: 20px;
+}
+#arcade .one .left img{
+    width: 100%;
+    margin-bottom: 30px;
+    background: #cccccc27;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+
+/* <!-- ------------------------cables------------------------- --> */
+#cables{
+    padding: 30px 5%;
+    text-align: center;
+}
+#cables h1{
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+#cables p{
+    font-weight: 600;
+    margin-bottom: 30px;
+    line-height: 2;
+}
+#cables button{
+    border: 0;
+    outline: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: red;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+#cables .one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cables .one .left{
+    margin-right: 20px;
+}
+#cables .one .left img{
+    width: 500px;
+}
+#cables .ones{
+    display: flex;
+    padding: 0px 10%;
+    margin-top: 100px;
+}
+#cables .ones .right {
+    margin-right: 30px;
+}
+#cables .ones .right img{
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    padding: 5px;
+    box-shadow: 5px 5px 15px 0px rgba(211, 211, 211, 1);
+}
